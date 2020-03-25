@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-columns: 880px 300px;
+  grid-template-rows: 15% auto 10%;
+  grid-template-areas: 
+    "head head"
+    "main side"
+    "main side"
+    "tail tail"
+}
+
+.head {
+  grid-area: head;
+}
+
+.main {
+  grid-area: main;
+}
+
+.side {
+  grid-area: side;
+}
+
+.tail {
+  grid-area: tail;
+}
