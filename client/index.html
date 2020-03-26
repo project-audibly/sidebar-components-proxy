@@ -4,48 +4,25 @@
 <head>
   <title>SOS AUDIB.LY are you playing </title>
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="http://localhost:3003/style.css" />
+  <link rel="stylesheet" href="http://localhost:4001/css/style.css" />
+  
 </head>
 
 <body>
 
   <div class="container">
-    <div class="head" id="topplayer"></div>
-    <div class = "main" id="comments"></div>
-    <div class = "tail" id="bottomplayer"></div>
-    <div class = "side" id="sidebar"></div>
+    <div class="head" id="TopPlayer"></div>
+    <div class="main" id="Comments"></div>
+    <div class="tail" id="BottomPlayer"></div>
+    <div class="side" id="sidebar"></div>
   </div>
 
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script src="http://localhost:3003/bundle.js"></script>
   <script src="http://localhost:3001/bundle.js"></script>
-  <script src="http://localhost:3010/bundle.js"></script>
-  <script src="http://localhost:4000/bundle.js"></script>
-  <script>
-    ReactDOM.render(
-      React.createElement(Sidebar),
-      document.getElementById('sidebar')
-    )
-  </script>
-  <script>
-    ReactDOM.render(
-      React.createElement(TopPlayer),
-      document.getElementById('topplayer')
-    )
-  </script>
-  <script>
-    ReactDOM.render(
-      React.createElement(BottomPlayer),
-      document.getElementById('bottomplayer')
-    )
-  </script>
-  <script>
-    ReactDOM.render(
-      React.createElement(Comments),
-      document.getElementById('comments')
-    )
-  </script>
+  <script src="http://localhost:3131/bundle.js"></script>
+  <script src="http://localhost:4001/bundle.js"></script>
 
 </body>
 
