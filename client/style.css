@@ -1,0 +1,42 @@
+.container {
+  padding-top: 46px;
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto 300px;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+    "head head"
+    "main side"
+    "tail tail"
+}
+
+.head {
+  grid-area: head;
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+  justify-content: start; 
+}
+
+.tail {
+  grid-area: tail;
+  position: sticky;
+  left:0;
+  bottom:0;
+  right:0;
+  z-index: 10;
+}
+
+.side {
+  grid-area: side;
+}
