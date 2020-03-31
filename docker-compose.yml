@@ -1,0 +1,8 @@
+version: '3'
+
+services: 
+  server:
+    container_name: proxyserver
+    build: .
+    ports: 
+      - '9000:9000'
